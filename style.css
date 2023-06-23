@@ -1,0 +1,28 @@
+body{
+    color: #1f2937;
+}
+
+.header{
+    color: #1f2937;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.header.links{
+    display:flex;
+    justify-content: flex-end;
+    padding:16px;
+    flex-flow: row;
+}
+a{
+    text-decoration: none;
+    
+}
+li{
+    list-style-type: none;
+}
+ul{
+    display:flex;
+    gap: 16px;
+}
