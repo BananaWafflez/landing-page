@@ -1,17 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+
 body{
-    color: #1f2937;
+    background-color: #1f2937;
+    
 }
 
 .header{
     font-family: "Roboto";
+    font-weight: bolder;
+    font-size: 18px;
     background-color: #1f2937;
     color:white;
     display:flex;
     align-items: center;
     justify-content: space-around;
     
+    
 }
 .header.links{
+    
     display:flex;
     justify-content: flex-end;
     padding:16px;
@@ -20,12 +28,15 @@ body{
 a{
     text-decoration: none;
     color: #E5E7EB;
+    
 }
 li{
     list-style: none;
+    font-weight: lighter;
     
 }
 ul{
     display:flex;
+    font-weight: lighter;
     gap: 16px;
 }
