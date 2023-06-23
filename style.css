@@ -3,7 +3,9 @@ body{
 }
 
 .header{
-    color: #1f2937;
+    font-family: "Roboto";
+    background-color: #1f2937;
+    color:white;
     display:flex;
     align-items: center;
     justify-content: space-around;
@@ -17,10 +19,11 @@ body{
 }
 a{
     text-decoration: none;
-    
+    color: #E5E7EB;
 }
 li{
-    list-style-type: none;
+    list-style: none;
+    
 }
 ul{
     display:flex;
