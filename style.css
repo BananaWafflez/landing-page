@@ -1,25 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto');
 
-
 body{
-    background-color: #1f2937;
-    
+    margin:0;
+    font-family: "Roboto";
 }
 
 .header{
-    font-family: "Roboto";
+    
     font-weight: bolder;
-    font-size: 18px;
+    font-size: 24px;
+    margin-bottom: 64px;
     background-color: #1f2937;
     color:white;
     display:flex;
     align-items: center;
     justify-content: space-around;
-    
+    flex-wrap: wrap;
     
 }
 .header.links{
-    
     display:flex;
     justify-content: flex-end;
     padding:16px;
@@ -33,10 +32,44 @@ a{
 li{
     list-style: none;
     font-weight: lighter;
+    font-size: 18px;
     
 }
 ul{
     display:flex;
     font-weight: lighter;
     gap: 16px;
+}
+.bluepart{
+    background-color: #1f2937;
+}
+.title{
+    color: #f9faf8;
+    display:flex;
+    flex-direction: column;
+    max-width: 320px;
+    font-weight: 900;
+    font-size: 48px;
+}
+.top{
+    color: #E5E7EB;
+    
+    display:flex;
+    justify-content: space-around;
+}
+
+.subtext{
+    font-size: 18px;
+    font-weight:100;
+    min-width: 450px;
+    color: gainsboro;
+    
+}
+.image{
+    font-size: 12px;
+    display:flex;
+    align-items: center;
+    background-color: rgb(141, 138, 138);
+    padding: 64px;
+    
 }
