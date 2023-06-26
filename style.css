@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto');
-
+/* Top part of website */
 body{
     margin:0;
     font-family: "Roboto";
@@ -63,6 +63,7 @@ ul{
     font-weight:100;
     min-width: 450px;
     color: gainsboro;
+    margin-bottom: 12px;
     
 }
 .image{
@@ -73,3 +74,15 @@ ul{
     padding: 64px;
     
 }
+button{
+    border: none;
+    border-radius: 6px;
+    background-color: #3882f6;
+    color:#E5E7EB;
+    width: 100px;
+    padding: 8px;
+    font-weight: bold;
+}
+
+
+/* Middle part of website */
