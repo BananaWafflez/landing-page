@@ -50,6 +50,8 @@ ul{
     max-width: 320px;
     font-weight: 900;
     font-size: 48px;
+    margin-left: 22px;
+
 }
 .top{
     color: #E5E7EB;
@@ -86,3 +88,35 @@ button{
 
 
 /* Middle part of website */
+.middleinfo{
+    display: flex;
+    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+    color:#1f2937;
+    font-weight: bold;
+    padding: 32px;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border-color: #3882f6;
+    padding:64px;
+    border-radius: 12px;
+    border-style:ridge;
+    margin-right: 32px;
+    
+}
+.images{
+    max-width: 200px;
+}
+.text{
+    display: flex;
+    max-width: 134px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
