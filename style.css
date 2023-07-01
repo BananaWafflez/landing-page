@@ -42,6 +42,7 @@ ul{
 }
 .bluepart{
     background-color: #1f2937;
+    padding-bottom: 64px;
 }
 .title{
     color: #f9faf8;
@@ -94,8 +95,8 @@ button{
     justify-content: center;
     align-items: center;
     color:#1f2937;
-    font-weight: bold;
-    padding: 32px;
+    font-weight: 1000;
+    padding: 64px;
 }
 .boxes{
     display: flex;
@@ -106,8 +107,9 @@ button{
     border-color: #3882f6;
     padding:64px;
     border-radius: 12px;
-    border-style:ridge;
+    border-style: solid;
     margin-right: 32px;
+    margin-bottom: 8px;
     
 }
 .images{
@@ -119,4 +121,20 @@ button{
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+/*Bottom part of website*/
+.upperbottom{
+    display: flex;
+    padding: 128px;
+    background-color:lightgrey;
+    text-align: center;
+}
+.quote{
+    display:flex;
+    text-align: center;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 28px;
+
+    
 }
