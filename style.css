@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
 /* Top part of website */
 body{
     margin:0;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
 }
 
 .header{
@@ -122,19 +122,22 @@ button{
     justify-content: center;
     align-items: center;
 }
+.middle{
+    margin-bottom: 64px;
+}
 /*Bottom part of website*/
 .upperbottom{
-    display: flex;
     padding: 128px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
     background-color:lightgrey;
-    text-align: center;
+    
+    
 }
 .quote{
-    display:flex;
-    text-align: center;
-    justify-content: flex-end;
-    align-items: center;
-    font-size: 28px;
-
-    
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+    max-width: 865px;
 }
